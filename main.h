@@ -8,7 +8,7 @@ y#ifndef MAIN_H
 
 /**
  * struct cases - Struct for print cases
- * @pfcase: character for case
+ * @pfcase: Character for case
  * @convfun: Conversion function
  */
 
