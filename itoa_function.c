@@ -2,7 +2,7 @@
 
 /**
  * _itoa - Converts an integer to specified argument
- * @num: integer to convert
+ * @num: Integer to convert
  * @s: Pointer to save int
  * @base: Base to convert int
  * Return: Pointer to s
