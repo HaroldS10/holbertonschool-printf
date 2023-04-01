@@ -2,7 +2,7 @@
 
 
 /**
- * _strlen - returns the length of a string.
+ * _strlen - Returns the length of a string.
  * @s: Pointer to string
  * Return: Lenght of the string
  */
@@ -23,8 +23,8 @@ int _strlen(char *s)
 
 
 /**
- * _strcpy - copies the string pointed to by src, including the terminating
- * null byte (\0), to the buffer pointed to by dest.
+ * _strcpy - Copies the string pointed to by src, including the terminating
+ * null byte, to the buffer pointed to by dest.
  * @dest: Pointer to destiny
  * @src: Pointer to source
  * Return: pointer to dest
@@ -42,7 +42,7 @@ char *_strcpy(char *dest, char *src)
 
 
 /**
- * rev_string - reverses a string.
+ * rev_string - Reverses a string.
  * @s: Pointer to string to reverse
  * Return: 0
  */
