@@ -3,7 +3,7 @@
 
 /**
  * case_ch - function for a singlen character (C case)
- * @list: characters
+ * @list: Characters
  * @buff: Buffer
  * @print_len: Actual position of buffer
  * Return: last position on buffer
@@ -29,7 +29,7 @@ int case_ch(va_list list, char *buff, int print_len)
  * case_str - function for a string (s case)
  * @list: String
  * @buff: Buffer
- * @print_len: actual position of buff
+ * @print_len: Actual position of buff
  * Return: Last position on buff
  */
 int case_str(va_list list, char *buff, int print_len)
@@ -53,10 +53,10 @@ int case_str(va_list list, char *buff, int print_len)
 
 
 /**
- * case_dec - function for a decimal number (d case)
+ * case_dec - Function for a decimal number (d case)
  * @list: Decimal
- * @buff: buffer
- * @print_len : actual position of buff
+ * @buff: Buffer
+ * @print_len : Actual position of buff
  * Return: Last position on buff
  */
 int case_dec(va_list list, char *buff, int print_len)
@@ -83,7 +83,7 @@ int case_dec(va_list list, char *buff, int print_len)
 
 
 /**
- * perc_case - function for % case
+ * perc_case - Function for % case
  * @list: Unused
  * @buff: buffer
  * @print_len: Actual position of buff
@@ -105,10 +105,10 @@ int perc_case(va_list __attribute__((unused)) list, char *buff, int print_len)
 
 
 /**
- * bin_case - function for a binary number (case b)
- * @list: intiger to convert into binary
- * @buff: buffer
- * @print_len : actual position of buff
+ * bin_case - Function for a binary number (case b)
+ * @list: Intiger to convert into binary
+ * @buff: Buffer
+ * @print_len : Actual position of buff
  * Return: Last position on buff
  */
 int bin_case(va_list list, char *buff, int print_len)
