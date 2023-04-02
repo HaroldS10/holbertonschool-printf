@@ -25,7 +25,7 @@ int (*get_cases_type(char *arg))(va_list, char *, int);
 int case_ch(va_list, char *, int);
 int case_str(va_list, char *, int);
 int perc_case(va_list, char *, int);
-int dec_case(va_list, char *, int);
+int case_dec(va_list, char *, int);
 int bin_case(va_list, char *, int);
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
