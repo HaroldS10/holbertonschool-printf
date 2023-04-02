@@ -132,4 +132,3 @@ int bin_case(va_list list, char *buff, int print_len)
 	free(aux);
 	return (print_len);
 }
-y
