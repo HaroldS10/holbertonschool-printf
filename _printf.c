@@ -31,7 +31,7 @@ y	while (format && format[i])
 				print_len = convfun(list, &buffer[print_len], print_len);
 				i++;
 			}
-		y	else
+			else
 			{
 				buffer[print_len] = format[i];
 				print_len += 1;

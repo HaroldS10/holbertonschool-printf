@@ -19,7 +19,7 @@ int (*get_cases_type(char *arg))(va_list, char *, int)
 
 	while (i < 5)
 	{
-		if (*arg == *(form0ats[i]).pfcase)
+		if (*arg == *(formats[i]).pfcase)
 			return ((formats[i].convfun));
 		i++;
 	}

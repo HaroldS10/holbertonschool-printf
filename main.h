@@ -29,6 +29,6 @@ int case_dec(va_list, char *, int);
 int bin_case(va_list, char *, int);
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
-void _revstr(char *s);
+void rev_str(char *s);
 
 #endif

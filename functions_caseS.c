@@ -46,7 +46,7 @@ char *_strcpy(char *dest, char *src)
  * @s: Pointer to string to reverse
  * Return: 0
  */
-void _revstr(char *s)
+void rev_str(char *s)
 {
 	int i;
 	int j;

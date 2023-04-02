@@ -1,4 +1,4 @@
-#Incluye "main.h"
+#Include "main.h"
 
 /**
  * _itoa - Converts an integer to specified argument
@@ -43,6 +43,6 @@ char *_itoa(int num, char *s, unsigned int base)
 		i++;
 	}
 	s[i] = '\0';
-	_revstr(s);
+	rev_str(s);
 	return (s);
 }
