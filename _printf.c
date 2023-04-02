@@ -16,7 +16,7 @@ int _printf(char *format, ...)
 			|| (format[0] == '\\' && format[1] == '\0'))
 		return (-1);
 	va_start(list, format);
-y	while (format && format[i])
+	while (format && format[i])
 	{
 		if (format[i] != '%')
 		{
