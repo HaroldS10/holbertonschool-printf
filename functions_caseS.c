@@ -42,7 +42,7 @@ char *_strcpy(char *dest, char *src)
 
 
 /**
- * rev_string - Reverses a string.
+ * rev_str - Reverses a string.
  * @s: Pointer to string to reverse
  * Return: 0
  */
