@@ -16,7 +16,7 @@ int _printf(char *format, ...)
 			|| (format[0] == '\\' && format[1] == '\0'))
 		return (-1);
 	va_start(list, format);
-	while (format && format[i])
+y	while (format && format[i])
 	{
 		if (format[i] != '%')
 		{
@@ -25,7 +25,7 @@ int _printf(char *format, ...)
 		}
 		else
 		{
-			convfun = get_print_cases(&(format[i + 1]));
+			convfun = get_cases_type(&(format[i + 1]));
 			if (convfun != NULL)
 			{
 				print_len = convfun(list, &buffer[print_len], print_len);
