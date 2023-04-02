@@ -3,7 +3,8 @@
 /**
  * get_cases_type - Gets an appropriate conversion function
  * according to the case that is found
- * @arg: Pointer 
+ * @arg: Proven argument
+ * Return: Pointer to conversion function
  */
 
 int (*get_cases_type(char *arg))(va_list, char *, int)

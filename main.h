@@ -10,8 +10,7 @@
  * struct cases - Struct for print cases
  * @pfcase: Character for case
  * @convfun: Conversion function
-y */
-
+ */
 typedef struct cases
 {
 	char *pfcase;
