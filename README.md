@@ -53,3 +53,9 @@ int main() {
 Integer: 42
 Character: A
 String: Hello, World!
+
+
+<h2> Authors </h2>
+
+Luis Gallo <lgallogomez>
+Harold Suarez <HaroldS10>
