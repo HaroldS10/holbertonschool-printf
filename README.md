@@ -57,5 +57,6 @@ String: Hello, World!
 
 <h2> Authors </h2>
 
-<li> Luis Gallo - lgallogomez</li>
-<li> Harold Suarez - HaroldS10</li>
+Luis Gallo - <[lgallogomez](https://github.com/lgallogomez)>
+
+Harold Suarez - <[HaroldS10](https://github.com/HaroldS10)>
